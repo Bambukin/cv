@@ -154,6 +154,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin-top: 0; }
 
+.bold { font-weight: bold; }
+
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -335,7 +337,7 @@ td:last-child {
   padding-right: 0; }
 
 
-/* Spacing
+/* cc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
@@ -350,10 +352,14 @@ blockquote,
 dl,
 figure,
 table,
-p,
 ul,
 ol,
 form {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem}
+p {
+  margin-bottom: 0rem; }
+.block {
   margin-bottom: 2.5rem; }
 
 
@@ -416,3 +422,7 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+@media (max-width: 750px) {
+  .six.columns { width: 100%; margin-left: 0; }
+  body { font-size: 2.5em } }
