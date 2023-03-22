@@ -423,6 +423,6 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .six.columns { width: 100%; margin-left: 0; }
   body { font-size: 2.5em } }
