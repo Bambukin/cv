@@ -409,16 +409,10 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {
-  .six.columns { width: 100%; margin-left: 0; }
-  body { font-size: 2.5em }
-}
+@media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-  .six.columns { width: 100%; margin-left: 0; }
-  body { font-size: 2.5em }
-}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
@@ -428,3 +422,7 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+@media (max-width: 750px) {.six.columns { width: 100%; margin-left: 0; }
+  body { font-size: 2.5em }
+}
