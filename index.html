@@ -1,67 +1,351 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <title>Вадим Сорелля</title>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
 </head>
 <body>
-<div class="container">
-  <h1>Вадим Сорелля</h1>
-  <h4>Ruby on Rails developer</h4>
-
-  <div class="row">
-    <div class="six columns">
-      <img src="img/me.jpeg" alt="Моя фотография" title="Это я" class="u-max-full-width">
+<div class="container-md" style="background-color: #F7F7F7">
+  <nav class="navbar sticky-top rounded-bottom shadow text-light" style="background-color: #425676;">
+    <div class="container">
+      <div class="navbar-brand p-0">
+        <p class="h3 mb-0 text-light">Вадим Сорелля</p>
+        <p class="small mb-0 text-light">Ruby on Rails developer</p>
+      </div>
+      <div class="navbar">
+        <a class="btn btn-outline-light me-2 rounded-circle" href="https://github.com/Bambukin" target="_blank"
+           title="Github">
+          <i class="bi bi-github"></i>
+        </a>
+        <a class="btn btn-outline-light me-2 rounded-circle" href="https://bambukin.t.me/" target="_blank"
+           title="Telegram">
+          <i class="bi bi-telegram"></i>
+        </a>
+        <a class="btn btn-outline-light me-2 rounded-circle" href="https://instagram.com/bambukin/" target="_blank"
+           title="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a class="btn btn-outline-light me-2 rounded-circle" href="https://linkedin.com/in/vadim-sorellia/"
+           target="_blank" title="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a class="btn btn-outline-light me-2 rounded-circle d-md-none" href="mailto:vadim@sorellia.pro" target="_blank"
+           title="Mail">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a class="btn btn-outline-light me-2 rounded-circle d-md-none" href="tel:+79066761400" target="_blank"
+           title="Phone">
+          <i class="bi bi-telephone"></i>
+        </a>
+        <div class="d-none d-md-block">
+          <p class="mb-0">
+            Email:
+            <a class="link-light link-offset-1 link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+               href="mailto:vadim@sorellia.pro">vadim@sorellia.pro</a>
+          </p>
+          <p class="mb-0">
+            Phone:
+            <a class="link-light link-offset-1 link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+               href="tel:+79066761400">+7(906)676-14-00</a>
+          </p>
+        </div>
+      </div>
     </div>
+  </nav>
 
-    <div class="six columns">
-      <div class="block">
-        <p>Дата рождения: 20.12.1996 г.</p>
+  <div class="row pb-3 border-bottom border-2">
+    <div class="col-md-4 mt-4 align-self-center order-md-2">
+      <div style="height: 200px;" class="d-flex align-items-center justify-content-center">
+        <img src="img/me.jpeg" alt="Моя фотография" title="Это я" class="rounded-circle h-100 shadow-sm">
       </div>
-      <div class="block">
+    </div>
+    <div class="col-md-8 mt-4">
+      <div class="mx-4">
+        <h2>Обо мне:</h2>
         <p>
-          Проживание: г. Воронеж
+          Хочу создавать приложения и сервисы, которые улучшают качество жизни людей.
         </p>
         <p>
-          Готов к командировкам. Готов к переезду.
-        </p>
-      </div>
-      <div class="block">
-        <p>
-          <span class="bold">Контактная информация:</span>
+          Несмотря на небольшое количество опыта, я обладаю хорошими аналитическими навыками и быстро обучаюсь.
+          Мне важно продвигаться вперед, и я всегда стремлюсь быть максимально полезным, эффективно применяя свои
+          знания.
         </p>
         <p>
-          <a href="tel:+79066761400">+7(906)676-14-00</a>
-        </p>
-        <p>
-          <a href="mailto:vadim@sorellia.pro">Vadim@sorellia.pro</a>
-        </p>
-        <p>
-          <a href="https://github.com/Bambukin">GitHub</a>
-        </p>
-        <p>
-          <a href="https://bambukin.t.me/">Telegram</a>
+          Успешно окончил курс по Ruby on Rails и опытных специалистов —
+          <a href="https://goodprogrammer.ru" target="_blank"
+             class="link-dark link-offset-1 link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+            "Хороший программист"
+          </a>.
         </p>
       </div>
     </div>
-    <div class="twelve columns">
-      <p>
-        <span class="bold">Ключевые знания и навыки:</span>
+  </div>
+
+  <div class="row pb-3 mt-3 border-bottom border-2 text-center">
+    <h2 class="mb-4">Некоторые учебные проекты:</h2>
+    <div class="col-lg-4">
+      <h5 class="mb-0">Приложение 'BBQ'</h5>
+      <a href="https://bbq.sorellia.pro" target="_blank"
+         class="small fst-italic link-dark">https://bbq.sorellia.pro</a>
+      <a class="link-dark me-2" href="https://github.com/Bambukin/bbq" target="_blank" title="code">
+        <i class="bi bi-github"></i>
+      </a>
+      <p class="mt-2 mb-2">
+        В приложении можно создавать события для организации мероприятий и встреч.
+        Установив пинкод в настройках, событие можно сделать приватным.
       </p>
+      <p class="small">Ruby 3.2.1 и Rails 7.0.5</p>
+    </div>
+
+    <div class="col-lg-4">
+      <h5 class="mb-0">Приложение 'AskMe'</h5>
+      <a href="https://askme.sorellia.pro" target="_blank"
+         class="small fst-italic link-dark">https://askme.sorellia.pro</a>
+      <a class="link-dark me-2" href="https://github.com/Bambukin/askme" target="_blank" title="code">
+        <i class="bi bi-github"></i>
+      </a>
+      <p class="mt-2 mb-2">
+        Приложение частично повторяющее функционал ask.fm, которое позволяет задавать вопросы пользователям, и
+        отвечать
+        на них.
+      </p>
+      <p class="small">Ruby 3.2.1 и Rails 7.0.5</p>
+    </div>
+
+    <div class="col-lg-4">
+      <h5 class="mb-0">Приложение 'Chat'</h5>
+      <a href="https://rails-zb7j.onrender.com" target="_blank" class="small fst-italic link-dark">https://rails-zb7j.onrender.com</a>
+      <a class="link-dark me-2" href="https://github.com/Bambukin/chat" target="_blank" title="code">
+        <i class="bi bi-github"></i>
+      </a>
+      <p class="mt-2 mb-2">
+        Простой анонимный чат в ходе разработки которого я познакомился с работой Action Cable в Rails.
+        Позволяет создавать комнаты, приглашать друзей и общаться с ними.
+      </p>
+      <p class="small">Ruby 3.2.1 и Rails 7.0.5</p>
+    </div>
+
+  </div>
+
+  <div class="row pb-3 mt-3 border-bottom border-2">
+    <h2 class="mb-4 text-center">Ключевые знания и навыки:</h2>
+    <div class="mx-4 col">
+
+      <p class="mb-0 h5">Ruby</p>
       <ul>
-        <li>Ruby on Rails, Ruby, SQL, Git, Docker, RSpec, HTML, CSS</li>
-        <li>Быстрая обучаемость.</li>
-        <li>Стрессоустойчивось.</li>
-        <li>Дисциплинированность.</li>
-        <li>Умение работать в команде и управлять ею.</li>
+        <li>Синтаксис</li>
+        <li>Code style</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">пишу код который можно прочесть, даю адекватные названия переменным</li>
+        </ul>
+
+        <li>ООП, классы</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как работают принципы инкапсуляции, наследования, полиморфизма, абстракции
+          </li>
+        </ul>
+
+        <li>Gems</li>
+        <li>IRB</li>
+
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">использую когда нужно быстро проверить выполнение кода</li>
+        </ul>
+
+        <li>ASDF</li>
+
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">использую для установки Ruby разных версий</li>
+        </ul>
       </ul>
-      <p>
-        <span class="bold">Опыт работы:</span>
-      </p>
+
+      <p class="mb-0 h5">Ruby on Rails</p>
+      <ul>
+        <li>Проектирование приложений</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">умею проектировать приложения — от идеи к эскизам, сценариям, сущностям и —
+            наконец
+            —
+            реальному проекту
+          </li>
+        </ul>
+
+        <li>Структура проекта</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю что в какую папку положить</li>
+        </ul>
+
+        <li>MVC</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как писать контроллеры, модели, шаблоны и как всё это соединять в рабочую
+            систему
+          </li>
+        </ul>
+
+        <li>REST</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">придерживаюсь этого соглашения в разработке</li>
+        </ul>
+
+        <li>I18n</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">все строкове константы выношу в соответствующий файл</li>
+        </ul>
+
+        <li>ActiveRecord</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">создание ассоциаций между моделями, построение запросов к базе данных с помощью
+            интерфейса запросов
+          </li>
+        </ul>
+
+        <li>Credentials</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">чувствительные данные храню в credentials</li>
+        </ul>
+
+        <li>ActionMailer</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">использую в связке с Mailjet для рассылки почты</li>
+        </ul>
+
+        <li>Active Storage</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">использую для добавления и обработки изображения, а AWS S3 для хранения</li>
+        </ul>
+
+        <li>Devise, Pundit, OmniAuth</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">работал с этими гемами для регистрации, аутентификации и авторизация</li>
+        </ul>
+
+        <li>ActionCable</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как настроить Websocket, создавать каналы и "броадкастить" в них</li>
+        </ul>
+
+        <li>ActiveJob</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">умею работать с очередями, воркерами, бекэнд-адаптерами</li>
+        </ul>
+
+        <li>Capistrano</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">для деплоя, но могу без него</li>
+        </ul>
+
+        <li>Recaptcha</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как защититься от спама</li>
+        </ul>
+      </ul>
+
+      <p class="mb-0 h5">Frontend</p>
+      <ul>
+        <li>HTML, CSS</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">основы веб-дизайна (сетка, шрифты, цвета, проектирование, отзывчивая верстка)</li>
+        </ul>
+
+        <li>Верстка с готовыми CSS-фреймворками</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">Bootstrap, Tailwind</li>
+        </ul>
+
+        <li>Основы JS</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">работа с элементами DOM, обработка событий</li>
+        </ul>
+
+        <li>Hotwire</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">изменение содержимого без обновления страницы</li>
+        </ul>
+      </ul>
+
+      <p class="mb-0 h5">Тестирование</p>
+      <ul>
+        <li>TDD</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как писать тесты вперед кода</li>
+        </ul>
+
+        <li>Юнит тесты Rspec</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как покрывать приложение тестами, что стоит теситровать, а что нет</li>
+        </ul>
+
+        <li>Интеграционные тесты Capybara</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">умею тестировать сценарии приложений</li>
+        </ul>
+
+        <li>FactoryBot</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">для создания объектов</li>
+        </ul>
+      </ul>
+
+      <p class="mb-0 h5">Хранение данных</p>
+      <ul>
+        <li>Основы языка SQL</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю, как создать БД, добавлять, удалять и получать данные</li>
+        </ul>
+
+        <li>SQlite и PostgreSQL</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">хранение, запись, настройка пользователей</li>
+        </ul>
+
+        <li>XML, JSON</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">Чтение, запись с помощью встроенных библиотек</li>
+        </ul>
+      </ul>
+
+      <p class="mb-0 h5">Сервер</p>
+      <ul>
+        <li>создание VPS сервера</li>
+        <li>настройка NGINX</li>
+        <li>настройка Passenger</li>
+        <li>настройка PostgreSQL, Redis</li>
+        <li>деплой приложений</li>
+      </ul>
+
+
+      <p class="mb-0 h5">Инструменты</p>
+      <ul>
+        <li>GIT</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как сделать чтобы лишние данные не попали в репозиторий, умею работать с
+            ветками
+          </li>
+        </ul>
+
+        <li>Docker</li>
+        <ul class="list-unstyled">
+          <li class="small mb-1 ms-3">знаю как собрать image, запустить контенер, маунтить папки, выполнять команды
+            внутри
+            контейнера
+          </li>
+        </ul>
+
+        <li>Linux (Ubuntu)</li>
+        <li>Терминал</li>
+        <li>Vim, Sublime</li>
+        <li>IDE (Rubymine)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row pb-3 mt-3 border-bottom border-2">
+    <h2 class="mb-4 text-center">Опыт работы:</h2>
+    <div class="mx-4 col">
       <p>
         <span class="bold">07.2020 </span>
         <span class="bold">– н. в. </span>
@@ -74,13 +358,9 @@
         Сфера деятельности компании: создание видеоконтента.
       </p>
       <p>
-      <ul>
-        <li>Участие в съемках Ruby Russia в 2021, 2022.</li>
-        <li>Участие в съемках IT митапов.</li>
-        <li>Управление людьми.</li>
-        <li>Планирование.</li>
-        <li>Развитие бизнеса.</li>
-      </ul>
+        Я принимал участие в съемках Ruby Russia в 2021 и 2022 годах и был оператором на многих онлайн-митапах.
+        Именно так, со временем, я стал все больше и больше итересоваться программированием.
+      </p>
       <p>
         <span class="bold">09.2015 </span>
         <span class="bold">– 12.2019 </span>
@@ -92,23 +372,24 @@
       <p>
         Сфера деятельности компании: подготовка специалистов структуры МЧС в области пожаротушения.
       </p>
-      <ul>
-        <p>
-          Опыт службы в государственных органах, который, хотя и не всегда был приятным, помог мне
-          развить навыки работы в стрессовых условиях. Я стал дисциплинированным и научился
-          эффективно работать в команде.
-        </p>
-      </ul>
       <p>
-        <span class="bold">Образование:</span>
+        Опыт службы в государственных органах помог мне
+        развить навыки работы в стрессовых условиях. Я стал дисциплинированным и научился
+        эффективно работать в команде.
       </p>
+    </div>
+  </div>
+
+
+  <div class="row pb-3 mt-3 border-bottom border-2">
+    <h2 class="mb-4 text-center">Образование:</h2>
+    <div class="mx-4 col">
       <div class="block">
         <p>
           <span class="bold">2023 </span>
           GoodProgrammer
         </p>
         <p>
-
           Курс «<a href="https://goodprogrammer.ru/rails">Онлайн-интенсив по Ruby on Rails</a>»
         </p>
         <p>
@@ -173,5 +454,8 @@
     </div>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
 </body>
 </html>
